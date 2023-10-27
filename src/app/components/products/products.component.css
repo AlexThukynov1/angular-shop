@@ -1,0 +1,29 @@
+.container {
+    margin: 0 auto 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items:center;
+    justify-content: center;
+    padding: 20px;
+    gap: 20px;
+}
+
+.example-card {
+    max-width: 400px;
+    background-color: white;
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  .image {
+    max-width: 300px;
+    padding: 10px;
+  }
+  .card-button-wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+  .card-button {
+    color:#fff;
+  }

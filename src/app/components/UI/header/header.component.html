@@ -1,12 +1,14 @@
 <mat-toolbar color="primary">
   <mat-toolbar-row>
-    <div class="logo" routerLink="">
+    <div class="logo btn" routerLink="">
       <mat-icon class="example-icon" aria-hidden="false" aria-label="Example heart icon">home</mat-icon>
-      <span>Ang Shop</span>
+      <span>E Shop</span>
     </div>
     <span class="example-spacer"></span>
-    <div>
-      <mat-icon class="example-icon" aria-hidden="false" aria-label="Example delete icon">delete</mat-icon>
+    <div class="toolbar">
+      <button class="btn" mat-flat-button routerLink="">Home</button>
+      <button class="btn" mat-flat-button routerLink="products">Products</button>
+      <button class="btn" mat-flat-button routerLink="basket">Basket</button>
     </div>
   </mat-toolbar-row>
 </mat-toolbar>
